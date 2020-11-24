@@ -1,0 +1,29 @@
+promoRouter.route('/')
+.get((req,res,next) => {
+    res.end('will send all the promoes to you !');
+})
+
+.post((req,res,next) => {
+    res.end('will add the promotion  :' + req.body.name + ' with details : ' + req.body.description);
+})
+.put((req,res,next) => {
+    res.statusCode=403;
+    res.end('PUT operation not supported in on promotions ');
+})
+.delete((req,res,next) => {
+    res.end('Deleting all promotions ! ');
+})
+.get('/:promoId',(req,res,next) => {
+    res.end('will send details of the promotion : '+req.params.promoId +' to you ! ');
+})
+.post('/:promoId',(req,res,next) => {
+
+      res.end('Post operation not supported on /promotions/'+promoId );
+})
+.put('/:promoId',(req,res,next) => {
+      res.write('Updating promo : ' + req.params.promoId);
+      res.end('will update the promotion '+req.params.name +' with details '+ req.body.description );
+})
+.delete('/:promoId',(req,res,next) => {
+    res.end('Deleting  the promotion  '+req.params.promoId);
+});
