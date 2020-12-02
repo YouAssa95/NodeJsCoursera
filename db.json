@@ -3,7 +3,7 @@
 
     "dishes": [
         {
-            "name": "Uthappizza",
+            "name": "Tajine",
             "image": "images/uthappizza.png",
             "category": "mains",
             "label": "Hot",

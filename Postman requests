@@ -1,0 +1,12 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmMyYjNjOGFmOGY3NzM1YWQyZTFkNzkiLCJpYXQiOjE2MDY1OTU1ODQsImV4cCI6MTYwNjU5OTE4NH0.SBscvZMg4_N6-_VbLwKdn5Zx3fojLJs8AcmnBq0rvuo
+
+dishId : 5fc2b54daf8f7735ad2e1d7a
+
+
+Login
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmMzZjJkNjIyYmQ2YzYzYTY4YjI1NTYiLCJpYXQiOjE2MDY2NzcyODQsImV4cCI6MTYwNjY4MDg4NH0.NuLh-ZL8h93HJWK7rG_W3NrdLJZ8mwnp_nmol_cah7g",
+    "status": "You are successfuly authenticated "
+}
